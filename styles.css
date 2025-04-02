@@ -21,14 +21,9 @@ h2 {
 /* Content styling */
 header,
 main {
-  /* max-width: 1520px; */
   padding: 0 40px;
   
 }
-
-/* header {
-  width: 100%; 
-} */
 
 header h1 {
   font-size: 48px;
@@ -50,7 +45,7 @@ header h1 {
   min-height: 16vh;
   width: 20vh;
   border-radius: 5px;
-  background-color: hsl(278, 59%, 36%);
+  background-color: #3b6eba;
   box-shadow: inset rgba(0,0,0,.15) 0 0 0 1px;
 }
 
@@ -99,8 +94,6 @@ header h1 {
   font-weight: 600
 }
 
-
-
 .read-change{
   font-size: 12px;
   margin-left: 6px;
@@ -132,7 +125,9 @@ header h1 {
   max-height: 80vh;
   width: 280px;
   background-color: rgb(70, 130, 151);
+  border-radius: 4px;
   box-shadow: 2px 0 2px -2px gray;
+  margin-bottom: 1rem;
 }
 
 .books-container {
@@ -191,6 +186,24 @@ label{
 .submit-button{
     width: 16vh;
     margin: 1vh;
+}
+
+input {
+  padding: 4px;
+  margin: 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
 }
 
 
